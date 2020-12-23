@@ -44,19 +44,19 @@ syntax match TagbarPseudoID   '\*\ze :'
 highlight default link TagbarHelp       Comment
 highlight default link TagbarHelpKey    Identifier
 highlight default link TagbarHelpTitle  PreProc
-highlight default link TagbarKind       Identifier
+highlight default link TagbarKind       Function
 highlight default link TagbarNestedKind TagbarKind
-highlight default link TagbarScope      Title
-highlight default link TagbarType       Type
-highlight default link TagbarTagLineN   Comment
-highlight default link TagbarSignature  SpecialKey
-highlight default link TagbarPseudoID   NonText
-highlight default link TagbarFoldIcon   Statement
-highlight default link TagbarHighlight  Search
+highlight default link tagbarscope      VisualNOS
+highlight default link tagbartype       type
+highlight default link tagbartaglinen   comment
+highlight default link tagbarsignature  specialkey
+highlight default link tagbarpseudoid   nontext
+highlight default link tagbarfoldicon   statement
+highlight default link tagbarhighlight  search
 
-highlight default TagbarAccessPublic    guifg=Green ctermfg=Green
-highlight default TagbarAccessProtected guifg=Blue  ctermfg=Blue
-highlight default TagbarAccessPrivate   guifg=Red   ctermfg=Red
+highlight default TagbarAccessPublic    guifg=#222222
+highlight default TagbarAccessProtected guifg=Blue    guibg=Blue
+highlight default TagbarAccessPrivate   guifg=#ff0000 
 highlight default link TagbarVisibilityPublic    TagbarAccessPublic
 highlight default link TagbarVisibilityProtected TagbarAccessProtected
 highlight default link TagbarVisibilityPrivate   TagbarAccessPrivate
